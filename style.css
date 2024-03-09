@@ -1,0 +1,114 @@
+<style>
+      body {
+        font-family: "Sono", sans-serif;
+        color: #f0f8ff;
+        text-align: center;
+        background-color: #B4A5A5;
+      }
+      
+      button{
+        background-color: rgb(241, 45, 45);
+        color:white;
+        border-radius:5% ;
+        border: white;
+        margin: 10px;
+
+       
+      }
+      li{
+        list-style:none;
+        font-size: 100%;
+        font-family:"Indie Flower", cursive;
+        margin: 10px;
+      }
+      
+
+      /* Hint: What can you do with a media query and flexbox? */
+      @media (max-width: 1250px) {
+        .pricing-container{
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          
+          gap: 30px;
+        }
+        .pricing-plan{
+          background-color: #3C415C;
+          border: 2px solid white;
+          padding: 10px;
+          min-height: 200px;
+          border-radius: 5%;
+          flex-shrink: 0;
+          
+
+        }
+        .plan-price{
+          font-family: Verdana, Geneva, Tahoma, sans-serif, ;
+          font-weight: bolder;
+          font-size: xx-large;
+          margin: 0%;
+        }
+        .plan-title{
+          font-size: x-large;
+          font-weight: bold;
+          margin: 0%;
+          
+        }
+        .pricing-plan>*{
+          margin: 15px;
+          
+        }
+        .pricing-container>*{
+          min-width: 300px;
+        }
+        .plan-features{
+          font-size: small;
+          
+        }
+        
+      }
+      @media(min-width:1251px){
+       
+        .pricing-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem;
+    }
+        .pricing-plan{
+          min-width: 400px;
+          min-height: 300px;
+          border: 2px solid white;
+          background-color: #3C415C;
+          border-radius: 10%;
+
+        }
+        .plan-price{
+          font-family: Verdana, Geneva, Tahoma, sans-serif, ;
+          font-weight: bolder;
+          font-size: 40px;
+          margin: 0%;
+        }
+        .plan-title{
+          font-size: 25px;
+          font-weight: bold;
+          margin: 0%;
+          
+      }
+      .pricing-plan>*{
+        margin: 20px;
+      }
+
+    }
+
+
+
+        
+        
+       
+           
+        
+
+      
+    </style>
